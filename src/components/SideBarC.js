@@ -1,15 +1,15 @@
 import React from 'react';
 import "./SideBar.css"; 
-import { SideBarData } from './SideBarData';  
+import { SideBarDataC } from './SideBarDataC';  
 import NavBar from "./NavBar";   
 // import { Container } from './styles';
 
-function SideBar() {
+function SideBarC() {
   return (
     
     <div className='SideBar'>
         <ul className='SideBarList'>
-            {SideBarData.map((val, key) => {
+            {SideBarDataC.map((val, key) => {
                 return (
                     <li key={key} 
                     className='row'
@@ -28,4 +28,4 @@ function SideBar() {
   );
 }
 
-export default SideBar;
+export default SideBarC;

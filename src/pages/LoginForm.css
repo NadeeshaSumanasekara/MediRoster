@@ -8,6 +8,7 @@ body {
   background-image: url("C:\Users\nadee\OneDrive\Desktop\React\MediRoster\src\assets\images\healthcare-seo-62f4da62ebffb-sej-1520x800.webp");
   background-repeat: no-repeat;  
   background-size: cover;
+  height: 100vh;
 
   /* You can adjust these styles as needed */
 }
